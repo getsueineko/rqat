@@ -1,0 +1,10 @@
+---
+rabbitmq:
+  host: localhost
+  port: 5672
+  virtual_host: /
+  username: admin
+  password_base64: cGFzc3dvcmQ=
+  test_queue: test_queue
+  exchange: TEST
+  message: "Hello fuckin testers! %)"
